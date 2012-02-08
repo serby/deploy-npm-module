@@ -4,7 +4,7 @@
 	"description": "A simple little tool to ensure that npm modules are tagged and pushed before publishing",
 	"version": "0.0.3",
 	"bin": {
-		"deploy-npm-module": "./bin/deploy-npm-module.js"
+		"deploy-npm-module": "./bin/deploy-npm-module"
 	},
 	"repository": {
 		"type": "git",
