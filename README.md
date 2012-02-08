@@ -2,8 +2,6 @@
 
 A simple little tool to ensure that npm modules are tagged and pushed before publishing
 
-[![build status](https://secure.travis-ci.org/serby/deploy-npm-module.png)](http://travis-ci.org/serby/deploy-npm-module)
-
 ## Installation
 
       npm install -g deploy-npm-module
