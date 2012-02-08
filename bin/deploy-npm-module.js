@@ -1,6 +1,13 @@
 var fs = require('fs')
   , colors = require('colors')
-  , pkg = JSON.parse(fs.readFileSync('./package.json'));
+  , pkg;
+
+  try {
+    pkg = JSON.parse(fs.readFileSync('./package.json'));
+  } catch (e) {
+    console.warn('You can only deploy from inside a npm module'.red);
+    process.exit(1);
+  }
 
 function exec(command, callback) {
   console.log(('Executing: ' + command + '\n').cyan);
