@@ -1,5 +1,7 @@
 # deploy-npm-module
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/serby/deploy-npm-module.svg)](https://greenkeeper.io/)
+
 A simple little tool to ensure that npm modules are tagged and pushed before publishing
 
 ## Installation
